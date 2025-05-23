@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="24dp"
+              android:gravity="center"
+              android:background="#fff">
+
+    <TextView
+            android:id="@+id/tv_request_books_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Request Books Screen"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginBottom="24dp" />
+
+    <EditText
+            android:id="@+id/editTextBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Book Name"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+    <EditText
+            android:id="@+id/editTextAuthorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Author Name"
+            android:inputType="text"
+            android:layout_marginBottom="24dp" />
+
+
+    <Button
+            android:id="@+id/btnSubmitRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Submit Request"
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"/>
+
+</LinearLayout>

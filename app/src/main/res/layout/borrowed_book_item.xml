@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground">
+
+    <TextView
+            android:id="@+id/txtBookName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    <TextView
+            android:id="@+id/txtBorrowDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Borrow Date"
+            android:textSize="14sp"
+            android:paddingTop="4dp"
+            android:textColor="#444"/>
+
+    <TextView
+            android:id="@+id/txtDueDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Due Date"
+            android:textSize="14sp"
+            android:paddingTop="4dp"
+            android:textColor="#444"/>
+
+    <TextView
+            android:id="@+id/txtDueDays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textSize="14sp"
+            android:paddingTop="4dp"
+            android:textColor="#444"/>
+
+</LinearLayout>

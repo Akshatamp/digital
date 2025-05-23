@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Digital Library</string>
+    <string name="signin"><u>SignIn</u></string>
+</resources>

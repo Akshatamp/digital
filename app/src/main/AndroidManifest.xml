@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.shreya.form_ex">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity" />
+
+        <activity
+                android:name=".addbookdetailsactivity"
+                android:parentActivityName=".LibrarianMenu" />
+
+        <activity android:name=".LibrarianMenu" />
+
+        <activity
+                android:name=".BookListActivity"
+                android:parentActivityName=".addbookdetailsactivity" />
+
+        <activity android:name=".LoginPage" />
+        <activity android:name=".Studentlistactivity" />
+        <activity android:name=".studentmenu_activity" />
+
+        <!-- ✅ ADDED android:exported -->
+        <activity
+                android:name=".splashactivity"
+                android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".searchstudentbooks" />
+        <activity android:name=".searchbookactivity" />
+        <activity android:name=".UpdateProfileActivity" />
+        <activity android:name=".BorrowedBooksActivity" />
+        <activity android:name=".RequestBooksActivity" />
+
+    </application>
+
+</manifest>
